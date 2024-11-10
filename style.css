@@ -1,0 +1,54 @@
+/*importing fonts from Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background-color: #D5E1EF;
+    font-family: "Outfit", serif;
+}
+
+img {
+    /*set sixe for the image*/
+    width: 100%;
+    /*make image border round*/
+    border-radius: 12px;
+}
+
+#container {
+    /*set a size for the container so it will not take up the whole screen*/
+    max-width: 300px;
+    /*center the container*/
+    margin: 0 auto;
+    /*add space to the top of container. 20 vh means 20% of the view high*/
+    margin-top: 20vh;
+    /*center the text inside the container and card*/
+    text-align: center;
+}
+
+.card{
+    /*add background color for card*/
+    background-color: white;
+    /*add background for card*/
+    padding: 16px;
+    /*make background border round*/
+    border-radius: 17px;
+    /*box-shadow: x-offset y-offset blur_radius color;*/
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.name{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0px;
+    color: #1F314F;
+    margin-top: 14px; /*create some space from the QR image*/
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 140%; 
+    letter-spacing: 0.2px;
+    color: #68778D;
+}
+
